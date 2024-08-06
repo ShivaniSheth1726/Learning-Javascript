@@ -1,0 +1,55 @@
+"use strict";
+let fruit="apple";
+console.log(fruit.length);
+console.log(fruit.toLowerCase());
+console.log(fruit.toUpperCase());
+console.log(fruit.charAt(4));
+console.log(fruit.at(-1));
+console.log(fruit.toLocaleUpperCase());
+console.log(fruit.includes("A"));//check the alphabet
+console.log(fruit.includes("a"));//Give boolean values 
+// const my_friend="Shivani"
+// const MySelf="Shivani"
+// const Mysubject="computer"
+
+
+
+
+if(fruit.includes("a")||fruit.includes("A"))
+{
+    console.log("a hai");
+}else{
+    console.log("nahi hai");
+}
+
+
+// if(fruit.includes("P"))
+//     {
+//         console.log("p hai");
+//     }else if(fruit.includes("p")){
+//         console.log("p hai");
+//     }else{
+//         console.log("nahi hai");
+//     }
+
+// const Name=prompt("Enter your Name");
+
+// if(Name.includes(" "))
+// {
+//     console.log('its a full name');
+// }else{
+//     console.log('Enter your Full Name');
+    
+// }
+
+const Name=prompt("Enter your Name");
+
+if(Name.includes(" ")&&(Name.at(-1)!==" "))
+{
+    console.log('its a full name');
+}
+else{
+    console.log('Enter your Full Name');   
+}
+
+
