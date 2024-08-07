@@ -42,9 +42,9 @@ if(fruit.includes("a")||fruit.includes("A"))
     
 // }
 
-const Name=prompt("Enter your Name");
+const name=prompt("Enter your Name");
 
-if(Name.includes(" ")&&(Name.at(-1)!==" "))
+if(name.includes(" ")&&(name.at(-1)!==" "))
 {
     console.log('its a full name');
 }
