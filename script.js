@@ -69,8 +69,11 @@ const fullName=prompt("Enter your Name");
 
 const userInput=fullName.trim();
 if(userInput.includes(" ")){
-    console.log('Its a full name');
+    if(userInput.length>=7){
+        console.log('Its a full name');
+    }else{
+        console.log('please enter valid name');
+    }
 }else{
-    console.log('Enter your full Name');
-    
+    console.log('Enter your full Name');   
 }
