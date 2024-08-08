@@ -199,12 +199,11 @@
 // days("2");
 
 
-function days(day){
-const weekDays=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-// console.log(weekDays.length);
-console.log(weekDays[day]);
-console.log(weekDays);
-
+function weekDays(day){
+const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// console.log(days.length);
+console.log(days[day-1]);
+console.log(days);
 }
-days(3);
+weekDays(3);
 
