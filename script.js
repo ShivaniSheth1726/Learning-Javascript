@@ -243,8 +243,8 @@ console.log(x);
 function weekDays(day){
 day=Number(day);
 const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-const dayIs=days[day-1]
-return dayIs??"invalid input";
+// const dayIs=days[day-1]
+return days[day-1]??"invalid input";
 }
-const output=weekDays(9)
+const output=weekDays(5)
 console.log(output);
