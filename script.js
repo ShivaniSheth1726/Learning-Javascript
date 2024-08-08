@@ -199,11 +199,41 @@
 // days("2");
 
 
-function weekDays(day){
-const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-// console.log(days.length);
-console.log(days[day-1]);
-console.log(days);
-}
-weekDays(3);
+// function weekDays(day){
+//   day=Number(day);
+//   if(day<=7){
+// const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// // console.log(days.length);
+// console.log(days[day-1]);
+// console.log(days);
+// }
+// else{
+//   console.log('invalid input');
+  
+// }
+// }
+// weekDays("5");
 
+function sum(num1 ,num2){
+ 
+  return num1+num2;
+  
+}
+const x = sum(1,2);
+console.log(x);
+
+
+function weekDays(day){
+  day=Number(day);
+  if(day<=7){
+const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+const dayIs=days[day-1]
+return dayIs;
+}
+else{
+  console.log('invalid input');
+  
+}
+}
+const output=weekDays(4)
+console.log(output);
