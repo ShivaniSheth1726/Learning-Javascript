@@ -223,17 +223,28 @@ const x = sum(1,2);
 console.log(x);
 
 
-function weekDays(day){
-  day=Number(day);
-  if(day<=7){
-const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-const dayIs=days[day-1]
-return dayIs;
-}
-else{
-  console.log('invalid input');
+// function weekDays(day){
+//   day=Number(day);
+//   if(day<=7){
+// const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// const dayIs=days[day-1]
+// return dayIs;
+// }
+// else{
+//   console.log('invalid input');
   
+// }
+// }
+// const output=weekDays(4)
+// console.log(output);
+
+
+// using nullish coelescing operator
+function weekDays(day){
+day=Number(day);
+const days=["monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+const dayIs=days[day-1]
+return dayIs??"invalid input";
 }
-}
-const output=weekDays(4)
+const output=weekDays(9)
 console.log(output);
