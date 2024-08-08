@@ -248,3 +248,14 @@ return days[day-1]??"invalid input";
 }
 const output=weekDays(5)
 console.log(output);
+
+function greeting(greet="Hello",name="User"){
+  // console.log(greet+" "+name+" nice to meet you!");
+  // using template literals
+  const str2 =`${greet} ${name}, nice to meet you!`;
+  // return greet+" "+name+" nice to meet you!"
+  console.log(str2);
+}
+// console.log( greeting());
+greeting();
+
