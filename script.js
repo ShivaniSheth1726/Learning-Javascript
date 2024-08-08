@@ -1,26 +1,26 @@
 "use strict";
-let fruit="apple";
-console.log(fruit.length);
-console.log(fruit.toLowerCase());
-console.log(fruit.toUpperCase());
-console.log(fruit.charAt(4));
-console.log(fruit.at(-1));
-console.log(fruit.toLocaleUpperCase());
-console.log(fruit.includes("A"));//check the alphabet
-console.log(fruit.includes("a"));//Give boolean values 
-// const my_friend="Shivani"
-// const MySelf="Shivani"
-// const Mysubject="computer"
+// let fruit="apple";
+// console.log(fruit.length);
+// console.log(fruit.toLowerCase());
+// console.log(fruit.toUpperCase());
+// console.log(fruit.charAt(4));
+// console.log(fruit.at(-1));
+// console.log(fruit.toLocaleUpperCase());
+// console.log(fruit.includes("A"));//check the alphabet
+// console.log(fruit.includes("a"));//Give boolean values 
+// // const my_friend="Shivani"
+// // const MySelf="Shivani"
+// // const Mysubject="computer"
 
 
 
 
-if(fruit.includes("a")||fruit.includes("A"))
-{
-    console.log("a hai");
-}else{
-    console.log("nahi hai");
-}
+// if(fruit.includes("a")||fruit.includes("A"))
+// {
+//     console.log("a hai");
+// }else{
+//     console.log("nahi hai");
+// }
 
 
 // if(fruit.includes("P"))
@@ -53,7 +53,7 @@ if(fruit.includes("a")||fruit.includes("A"))
 // }
 
 
-const fullName=prompt("Enter your Name");
+// const fullName=prompt("Enter your Name");
 // if(fullName.includes(" ")){
 //     if(fullName.at(-1)!==" "){
 //         console.log('This is the full Name');
@@ -67,13 +67,62 @@ const fullName=prompt("Enter your Name");
 
 
 
-const userInput=fullName.trim();
-if(userInput.includes(" ")){
-    if(userInput.length>=7){
-        console.log('Its a full name');
-    }else{
-        console.log('please enter valid name');
-    }
+// const userInput=fullName.trim();
+// if(userInput.includes(" ")){
+//     if(userInput.length>=7){
+//         console.log('Its a full name');
+//     }else{
+//         console.log('please enter valid name');
+//     }
+// }else{
+//     console.log('Enter your full Name');   
+// }
+
+// Function 
+
+// function namaste() {
+//     console.log('Namaste ji!');
+// }
+// namaste();
+// console.log(namaste());//this will not give output therefore it will show undefined value
+
+// function greeting(greeting,name) {//here parameter -ewhen declare function
+//     console.log(greeting, name);
+// }
+// greeting("Hello","Shivani");//this is argument-when calling function
+// greeting("Namaste","Shivani");
+// greeting("How are you","Shivani?");
+
+// // const great="Hello";
+// // const name=prompt("Enter your name")
+// function hello(great,name){
+//   if(great==undefined){
+//     great="Hello";
+//   }
+//   if(name===undefined){
+//     name="User";
+//   }
+//         console.log(great,name);
+// }
+// hello("hello","Shivani");
+
+
+const day=prompt("Enter the Number between 1 to 7 ")
+function days(){
+if(day==1){
+  console.log('Mon');  
+}else if(day==2){
+  console.log('tue');  
+}else if(day==3){
+  console.log('wed');  
+}else if(day==4){
+  console.log('thursday');  
+}else if(day==5){
+  console.log('Fri');  
+}else if(day==6){
+  console.log('Sat');  
 }else{
-    console.log('Enter your full Name');   
+  console.log('Sunday');
 }
+}
+days();
