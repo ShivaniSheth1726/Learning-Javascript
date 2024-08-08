@@ -107,8 +107,62 @@
 // hello("hello","Shivani");
 
 
-const day=prompt("Enter the Number between 1 to 7 ")
-function days(){
+// const day=prompt("Enter the Number between 1 to 7 ")
+// function days(day){
+// if(day==1){
+//   console.log('Mon');  
+// }else if(day==2){
+//   console.log('tue');  
+// }else if(day==3){
+//   console.log('wed');  
+// }else if(day==4){
+//   console.log('thursday');  
+// }else if(day==5){
+//   console.log('Fri');  
+// }else if(day==6){
+//   console.log('Sat');  
+// }else{
+//   console.log('Sunday');
+// }
+// }
+// days(day);
+
+// function capitalizeWords(greet , name ) {
+  
+     
+// }
+
+// const day=Number(prompt("Enter the Number between 1 to 7 "));
+
+// function days(day){
+// if(day==1){
+//   console.log('Mon');  
+// }else if(day==2){
+//   console.log('tue');  
+// }else if(day==3){
+//   console.log('wed');  
+// }else if(day==4){
+//   console.log('thursday');  
+// }else if(day==5){
+//   console.log('Fri');  
+// }else if(day==6){
+//   console.log('Sat');  
+// }else{
+//   console.log('Sunday');
+// }
+// }
+// days(day);
+
+// false value
+// const value=NaN,0,null,undefined,false,"";
+// if(value){
+//   console.log('true value');
+// }else{
+//   console.log('false value');
+// }
+
+function days(day){
+  day=Number(day);
 if(day==1){
   console.log('Mon');  
 }else if(day==2){
@@ -125,4 +179,4 @@ if(day==1){
   console.log('Sunday');
 }
 }
-days();
+days("2");
