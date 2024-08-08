@@ -163,20 +163,37 @@
 
 function days(day){
   day=Number(day);
-if(day==1){
-  console.log('Mon');  
-}else if(day==2){
-  console.log('tue');  
-}else if(day==3){
-  console.log('wed');  
-}else if(day==4){
-  console.log('thursday');  
-}else if(day==5){
-  console.log('Fri');  
-}else if(day==6){
-  console.log('Sat');  
-}else{
-  console.log('Sunday');
+switch (day) {
+  case 1:
+    console.log('Mon');
+    
+    break;
+    case 2:
+      console.log('Tue');
+      
+      break;
+      case 3:
+    console.log('Wed');
+    
+    break;
+    case 4:
+    console.log('Thur');
+    
+    break;
+    case 5:
+    console.log('Fri');
+    
+    break;
+    case 6:
+    console.log('Sat');
+    
+    break;
+    case 7:
+    console.log('Sun');
+    
+    break;
+  default:
+    break;
 }
 }
 days("2");
